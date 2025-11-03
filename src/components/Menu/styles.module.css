@@ -1,0 +1,27 @@
+.menu-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.2rem;
+}
+
+.menu-item {
+  border-radius: 0.8rem;
+  padding: 1rem 6.4rem;
+  transition: all 0.1s ease-in-out;
+  text-decoration: none;
+  text-align: center;
+}
+
+.menu-item:hover {
+  filter: brightness(80%);
+  cursor: pointer;
+}
+
+.create {
+  background-color: var(--success);
+}
+
+.delete {
+  background-color: var(--error);
+}

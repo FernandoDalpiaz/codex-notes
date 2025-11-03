@@ -1,0 +1,33 @@
+ul {
+  list-style-position: inside;
+}
+
+.notes-container {
+  background-color: var(--primary);
+  padding: 1.6rem;
+  min-height: 600px;
+  border-radius: 8px;
+}
+
+.heading {
+  text-align: center;
+}
+
+.note-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3.2rem;
+  padding: 3.2rem 1.6rem;
+}
+
+.text {
+  font-family: "Caveat", cursive;
+  font-style: normal;
+  font-size: 3.2rem;
+}
+
+.delete {
+  cursor: pointer;
+}
